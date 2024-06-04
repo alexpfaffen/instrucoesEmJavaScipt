@@ -271,3 +271,24 @@ const pessoa2 = new Pessoa('Camila', 35)
 
 
 // Prototype
+
+function Game(){
+    this.pulou = () => alert('O personagem pulou');
+    this.deitou = () => alert('O personagem deitou');
+
+}
+
+Game.prototype.correu = () => alert('O personagem correu');
+
+const novoJogo = new Game();
+
+console.log(novoJogo)
+
+// No console aparece (objeto) Game clicando na seta mostra (deitou) e (pulou) para visualizar isso como um alert escreva no console EX: novoJogo.pulou(), novoJogo.deitou(), novoJogo.correu()
+
+const MeuJogo = 'fifa'
+
+console.log(MeuJogo.toUpperCase())
+
+// o construtor transforma o (fifa) que está em minúscula em maiscúlo
+
