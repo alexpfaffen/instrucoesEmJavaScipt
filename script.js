@@ -179,9 +179,7 @@ for (key in object){
     console.log(object[key])
 }
 
-// Quando chamar o for é criado um key em object, que passa por cada propriedade ex: name, idade, cidade - mostrando o que tem dentro do
-
-objeto. ex: Alex, 34, Curitba - colocando o key dentro de []
+// Quando chamar o for é criado um key em object, que passa por cada propriedade ex: name, idade, cidade - mostrando o que tem dentro do objeto. ex: Alex, 34, Curitba - colocando o key dentro de []
 
 
 const array = ['Hb20, Hilux, corolla']
