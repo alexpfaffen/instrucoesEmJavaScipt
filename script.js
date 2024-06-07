@@ -292,3 +292,40 @@ console.log(MeuJogo.toUpperCase())
 
 // o construtor transforma o (fifa) que está em minúscula em maiscúlo
 
+
+// Funções construtoras
+
+
+// adotar no inicio do nome pascal case primeira letra maiúscula
+class Pessoa3{
+    constructor(name, idade){
+        this.name = name
+        this.idade = idade
+        this.cidade = 'Fortaleza'
+    }
+
+    andou(){
+        alert(`${this.name} andou`)
+    }
+}
+
+const newpessoa = new Pessoa3('Alex', 33);
+
+// para visualizar no terminal acessar newpesssoa, newpessoa.andou() para visualizar o alert
+
+class Pessoa4 {
+    constructor(name, idade){
+        this.name = name
+        this.idade = idade
+        this.cidade = 'Fortaleza'
+    }
+
+     static andou(){
+        alert(`${this.name} andou`)
+    }
+}
+
+const newpessoa1 = new Pessoa4('Alex', 33);
+
+// colocando o static na frente do andou nao consegue ter acesso ao alert
+
